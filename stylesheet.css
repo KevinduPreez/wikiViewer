@@ -1,0 +1,65 @@
+* {
+  color: #424242;
+}
+
+body {
+  background-image: URL("https://i.imgur.com/cgcspD2.png");
+  background-attachment: fixed;
+}
+
+html {
+}
+
+#header, h4 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-family: "Crimson Text", serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.title {
+  margin: 30px 30px 20px 30px;
+  border: 0.5px solid #424242;
+  padding: 0px 10px 5px 10px;
+  box-shadow: 3px 3px 2px #213049;
+  border-radius: 5px;
+  background-color: rgba(249, 255, 254, 0.8);
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+#searchT {
+  width: 30%;
+  display: inline;
+  margin: 5px 2px 5px 5px;
+}
+
+#button {
+  margin: 6.5px 2px 5px 1px;
+}
+/*
+#randBut{
+  6.5px 2px 5px 1px;
+} */
+
+#select {
+  margin: 6.5px 0px 5px 0px;
+  width: 5%;
+}
+
+.btn:hover{
+  background-color:#00c4ff;
+}
